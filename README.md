@@ -1,5 +1,5 @@
 # portable-python
-Easy to setup python environment for my own use on the University of Sussex Engineering and Informatics School computers
+Easy to set up python environment for my own use in data science / machine learning projects. Comes with PyTorch (w/Cuda), and the usual suspects. See requirements.txt for the full list.
 
 ## Installation
 ### Python 3.8.10
