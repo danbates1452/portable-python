@@ -8,14 +8,15 @@ Easy to set up python environment for my own use in data science / machine learn
 3. Select 'Add Python 3.8 to PATH' though it probably won't work!
 4. Click 'Install now'
 
-#### NOTE:
-Default Path to Python Executable: `c:/Users/db524/AppData/Local/Programs/Python/Python38/python.exe`, substitute any reference to 'python' or 'python3' with this.
-Default Path to PIP Executable: `c:/Users/db524/AppData/Local/Programs/Python/Python38/Scripts/pip3.8.exe`, substitute any reference to 'pip', 'pip3', or 'pip3.8' with this.
+#### NOTE: (WINDOWS)
+Default Path to Python Executable: `c:/Users/<User>/AppData/Local/Programs/Python/Python38/python.exe`, substitute any reference to 'python' or 'python3' with this.
+Default Path to PIP Executable: `c:/Users/<User>/AppData/Local/Programs/Python/Python38/Scripts/pip3.8.exe`, substitute any reference to 'pip', 'pip3', or 'pip3.8' with this.
 
 ### Virtual Environment
-1. Create a virtual environment by running `c:/Users/db524/AppData/Local/Programs/Python/Python38/python.exe -m venv venv`
+1. Create a virtual environment by running Python from it's installed path (e.g. default in windows: `c:/Users/<User>/AppData/Local/Programs/Python/Python38/python.exe -m venv venv`).
 2. Activate your virtual environment by running ```./venv/Scripts/activate``` (```./venv/bin/activate``` for Unix systems)
-3. Run ```c:/Users/db524/AppData/Local/Programs/Python/Python38/Scripts/pip3.8.exe install -r ./requirements.txt``` to install dependencies
+3. Run ```c:/Users/<User>/AppData/Local/Programs/Python/Python38/Scripts/pip3.8.exe install -r ./requirements.txt``` to install dependencies
+(Optional) 4. You may also have to run ```pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117``` to get PyTorch to install with Cuda properly.
 
 ## Adding Packages
 1. Use pip to install them
