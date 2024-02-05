@@ -1,5 +1,7 @@
 # portable-python
-Portable python environment (including PyTorch with Cuda) for machine learning not on your own PC. Primarily targetted at Informatics Students at the University of Sussex, though it should be applicable elsewhere.
+A quick tutorial for installing a python environment (including PyTorch with Cuda) for machine learning on a PC that isn't yours. Primarily targetted at Informatics Students at the University of Sussex, though it should be applicable elsewhere.
+
+**Colab is convenient, but if it's kicking you off, it would be silly not to use the i9-12900 and RTX A4000 under your desk!**
 
 ## Steps
 
