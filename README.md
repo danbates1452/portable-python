@@ -19,7 +19,6 @@ For ease, this guide uses GitHub Desktop, which should be found on Software Hub.
 4. By default, a clone of this repo should appear in `C:\Users\<USER>\Documents\GitHub\portable-python`. Navigate there for the next step.
 
 ### 3. Setting up your Virtual Environment
----
 Note: This section takes place in your command line/terminal of choice, as long as you're working directory is your local clone of this repository. You may want to be using something like VSCode for both your terminal and code editting.
 1. Create a virtual environment by running Python from it's installed path. In windows: `python -m venv venv` (or the following for those without Python 3.8.10 in path: `c:/Users/<User>/AppData/Local/Programs/Python/Python38/python.exe -m venv venv`). You should see your virtual environment has been created in the subdirectory 'venv'.
 2. Activate your virtual environment by running its activate script: ```./venv/Scripts/activate``` . You can now use 'pip' and 'python' freely as they're in the PATH of your new virtual environment.
